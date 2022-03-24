@@ -1,0 +1,17 @@
+.contenedorGrid  > div{
+    display: block;
+    background-color: hsl(48, 41%, 61%);
+    padding: 50px;
+    
+    
+    
+
+}
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 200px 200px ;
+    grid-gap: 30px;
+    text-align: center ;
+}
