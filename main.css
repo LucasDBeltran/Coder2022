@@ -1,0 +1,101 @@
+* {
+  background: linear-gradient(210deg, #0d6efd 0%, #f8f9fa 100%);
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.507);
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.logoBanner {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*crear un partial para este*/
+.boxImageDestinos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*menu! crear un partial*/
+#ContainerNav {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  width: auto;
+}
+
+#ContainerNav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#ContainerNav ul {
+  list-style: none;
+  text-align: center;
+}
+
+#ContainerNav li a {
+  background-color: #427059;
+  color: #c5e3f7;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 5px 0px #272501;
+          box-shadow: 0px 5px 0px #272501;
+}
+
+#ContainerNav li a:hover {
+  background-color: rgba(53, 70, 26, 0.438);
+  color: black;
+  -webkit-box-shadow: 0px 2px 0px #648fec;
+          box-shadow: 0px 2px 0px #648fec;
+}
+
+#ContainerNav li {
+  float: left;
+  text-align: center;
+}
+
+#ContainerNav li ul {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  z-index: 1;
+}
+
+#ContainerNav li:hover > ul {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

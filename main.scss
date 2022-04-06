@@ -1,0 +1,85 @@
+*{
+    background:linear-gradient(210deg, #0d6efd 0%, #f8f9fa 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    color: rgba(0, 0, 0, 0.507) ;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.logoBanner {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+/*crear un partial para este*/
+.boxImageDestinos {
+    display: flex;
+    justify-content:center;
+    
+}
+/*menu! crear un partial*/ 
+
+#ContainerNav {
+    display: grid;
+    margin:auto;
+    width:auto;
+
+    li{
+        display: inline-block;
+        padding: 20px;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+    }
+     li a {
+        background-color: rgb(66, 112, 89);
+        color:rgb(197, 227, 247);
+         text-decoration: none;
+         padding: 10px 10px;
+         display: block;
+         transition: 0.5s;
+         border-radius: 5px;
+         margin: 2px ;
+         font-size: 1.2rem;
+         line-height: 1.6em;
+         margin-bottom: 10px;
+         box-shadow: 0px 5px 0px rgb(39, 37, 37 / 74%);
+    
+    }
+    li a:hover {
+        background-color: rgba(53, 70, 26, 0.438);
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 2px 0px rgb(100, 143, 236);
+        
+    }
+    
+    li {
+        float: left;
+        text-align: center;
+    }
+    li ul {
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        z-index: 1; 
+    }
+    li:hover > ul{
+       display: block;
+     }
+
+
+
+
+ }
